@@ -33,28 +33,28 @@ ASSERT_EQ(parser.GetIntValue("some_arg"), 123);
 ---
 
 ## ✅ Features Implemented
-- 'AddStringArgument(name)'
+- `AddStringArgument(name)`
 
-- 'AddIntArgument(name)'
+- `AddIntArgument(name)`
 
-- 'AddFlag(name) (boolean)'
+- `AddFlag(name) (boolean)`
 
-- 'Parse(argv) and store values'
+- `Parse(argv) and store values`
 
-- 'GetStringValue(name)'
+- `GetStringValue(name)`
 
-- 'GetIntValue(name)'
+- `GetIntValue(name)`
 
-- 'GetFlag(name)'
+- `GetFlag(name)`
 
-- 'Optional help message ('--help' support)'
+- `Optional help message ('--help' support)`
 
 ---
 
 ## 🔬 Testing
 
 - Unit tests are located in:
-- tests/argparser_test.cpp
+- `tests/argparser_test.cpp`
 
 Framework used: GoogleTest
 
@@ -77,7 +77,7 @@ ctest -V
 ./labwork4 --mult 1 2 3 4 5
 # → prints 120
 ```
-See 'bin/main.cpp' for example usage of the parser in a real program.
+See `bin/main.cpp` for example usage of the parser in a real program.
 
 ---
 
@@ -91,7 +91,7 @@ tests/
 bin/
   └── main.cpp          # Demo CLI application
 ```
-- You are allowed to add new '.cpp' or '.h' files as needed, as long as they remain in the 'lib/' folder and are included via CMake.
+- You are allowed to add new `.cpp` or `.h` files as needed, as long as they remain in the `lib/` folder and are included via CMake.
 ---
 
 ## ⚠️ Notes
